@@ -20,3 +20,9 @@ lazy val chapter2 = (project in file("chapter2")).settings(buildSettings).settin
   name := "chapter2",
   description := "Suprevision And Monitoring"
 )
+
+
+lazy val chapter3 = (project in file("chapter3")).settings(buildSettings).settings(
+  name := "chapter3",
+  description := "Routing Messagaes"
+)
